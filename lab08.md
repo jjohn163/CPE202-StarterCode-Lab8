@@ -12,7 +12,7 @@ Define a class **MyHashTable** that support separate chaining collision resoluti
 - **remove(self, key):** this function takes a key, removes the key-item pair from the hash table and returns the key-item pair. If no key-item pair is associated with the key, the function raises a **LookupError** exception.
 - **size(self):** this function returns the number of key-item pairs currently stored in the hash table.
 - **load\_factor(self):** this function returns the current load factor of the hash table.
-- **collisions(self):** this function returns the number of collisions that have occurred during insertions into the hash table. A collision occurs when an item is inserted into the hash table at a location where one or more key-item pairs has already been inserted. When the table is resized, do not increment the number of collisions unless a collision occurs when the new key-item pair is being inserted into the resized hash table.
+
 
 Submit a file **sep\_chain\_ht.py** containing the above and a file **sep\_chain\_ht\_tests.py** containing your set of test cases.
 
